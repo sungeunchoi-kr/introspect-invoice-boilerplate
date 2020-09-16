@@ -1,16 +1,18 @@
 ---
-invoice-nr: 2015-11-04
-author: Max Mustermann
-city: Musterstadt
+invoice-nr: 20200915-01
+author: Introspect
+city:
 from:
-- Musterstraße 37
-- 12345 Musterstadt
+- 26, Dongnam-ro 79 gil 105-902
+- Gangdong-gu, Seoul 05232
 to:
-- Erika Mustermann
-- Musterallee 1
-- 12345 Musterstadt
-- Germany
-VAT: 20
+- Socialflex
+- 1624 NW 19th St, Oklahoma City
+- Oklahoma 73106
+- USA
+- socialflexmarketing@gmail.com
+
+VAT: 0
 service:
 - description: The first service provided
   price: 320.00
@@ -37,13 +39,12 @@ closingnote: |
     Best regards,
 
 # Invoice settings
-currency: EUR
-# commasep: true
+currency: USD
 lang: english
 
 # Typography and layout
-seriffont: Hoefler Text
-sansfont: Helvetica Neue
+seriffont: Linux Libertine O #Hoefler Text
+sansfont: DejaVuSans #HelveticaNeue Light
 fontsize: 10pt
 geometry: a4paper, left=43mm, right=43mm, top=51mm, bottom=17mm
 # letterhead: true # To include personalized letterheads

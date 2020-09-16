@@ -84,9 +84,9 @@ $endif$
 }
 
 % To display custom date
-% \usepackage[nodayofweek]{datetime}
-% \newdate{date}{01}{12}{1867}
-% \date{\displaydate{date}}
+\usepackage[nodayofweek]{datetime}
+\newdate{date}{14}{09}{2020}
+\date{\displaydate{date}}
 % Use this instead of \today: % \displaydate{date}
 
 % DOCUMENT
@@ -109,7 +109,7 @@ $endfor$
 
 \begin{flushright}
   \small
-  $city$, \today
+  \displaydate{date}
 \end{flushright}
 
 \vspace{1em}
